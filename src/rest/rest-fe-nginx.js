@@ -12,5 +12,5 @@ export const options = {
 };
 
 export function restNginxFE() {
-    http.get('http://localhost:8000/api/reports')
+    http.get('http://103.186.1.33/reports/rest')
 }

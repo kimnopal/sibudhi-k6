@@ -12,5 +12,5 @@ export const options = {
 };
 
 export function restApacheBE() {
-    http.get('http://localhost:8000/api/reports')
+    http.get('http://103.186.0.111/api/reports')
 }

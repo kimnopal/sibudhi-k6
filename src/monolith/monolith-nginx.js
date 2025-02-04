@@ -11,5 +11,5 @@ export const options = {
 };
 
 export function monolithNginxTest() {
-    http.get('http://localhost:8000/api/reports')
+    http.get('http://103.181.142.44/reports')
 }
