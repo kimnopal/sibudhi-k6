@@ -12,5 +12,5 @@ export const options = {
 };
 
 export function graphqlNginxBE() {
-    http.get('http://103.179.56.89/graphql?query=query+Reports{reports{id,name,email,status,service{name},serviceType{name},noHandphone,description}}')
+    http.get('http://graphql.pastilulus.me/graphql?query=query+Reports{reports{id,name,email,status,service{name},serviceType{name},noHandphone,description}}')
 }

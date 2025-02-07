@@ -12,5 +12,5 @@ export const options = {
 };
 
 export function graphqlNginxFE() {
-    http.get('http://103.186.1.33/reports/graphql')
+    http.get('http://frontend.pastilulus.me/reports/graphql')
 }

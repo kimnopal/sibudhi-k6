@@ -12,5 +12,5 @@ export const options = {
 };
 
 export function restApacheFE() {
-    http.get('http://103.186.1.33/reports/rest')
+    http.get('http://frontend.pastilulus.me/reports/rest')
 }
